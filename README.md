@@ -1,2 +1,2 @@
-# PowerMgr
-Arduino Library to handle Power Management
+# Scheduler Library
+Arduino Library to handle async non-blocking tasks that need to be run based on a timer
