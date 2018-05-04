@@ -16,6 +16,10 @@ void Scheduler::stop(){
     started = false;
 }
 
+void Scheduler::setTimeout(const unsigned long timeout){
+    this->timeout = timeout;
+}
+
 bool Scheduler::hasTimeoutHappened(){
     return started && ((unsigned long)(millis() - prev_time) >= timeout);
 }

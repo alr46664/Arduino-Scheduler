@@ -9,6 +9,7 @@ public:
     
     void start();
     void stop();
+    void setTimeout(const unsigned long timeout);
     bool hasTimeoutHappened();
 
 private:
